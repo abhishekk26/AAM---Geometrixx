@@ -16,19 +16,19 @@ s.usePlugins=true;
 function s_doPlugins(s) {
 
   s.events=s.apl(s.events,'event2',',',2); 
-  /*s.AudienceManagement.setup({
+  s.AudienceManagement.setup({
 	 "partner":"adu",
 	 "containerNSID":0,
 	 "uuidCookie":{
 		 "name":"aam_uuid",
 		 "days":30
 	 }
-  }); */ 
+  }); 
 	
 }
 s.doPlugins=s_doPlugins;
 
-//s.loadModule(AudienceManagement);
+s.loadModule(AudienceManagement);
 /************************** PLUGINS SECTION *************************/
 
 
